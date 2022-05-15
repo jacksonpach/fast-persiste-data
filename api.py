@@ -26,4 +26,7 @@ def read_root():
 
 @app.post("/persons/")
 async def create_item(person: Person):
+
     return person
+
+#Persit data in redis
